@@ -4,8 +4,7 @@
 // Brand colors: Deep Blue (#1E5A8E), Vibrant Orange (#FF6B35), Golden Yellow (#FDB42D)
 // =================================================================================
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import { ArrowRight, Users, Star, Award, Smile, X, Paintbrush, Home, Building2, Sparkles, CheckCircle, Clock, Shield, Phone, Palette, Droplets, Zap,MapPin } from 'lucide-react';
+import { ArrowRight, Users, Star, Award, X, Paintbrush, Home, Building2, Sparkles, Shield, Phone, Palette, Droplets, Zap,MapPin } from 'lucide-react';
 
 
 const HomePage = () => {
@@ -160,9 +159,8 @@ const HomePage = () => {
     const phoneNumber = '905550957358';
     const message = encodeURIComponent("Merhaba! Boya işleri hakkında bilgi almak istiyorum.");
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
-    const emailAddress = 'info@sefarenk.com';
 
-    // const heroImageUrl = "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=1600&auto=format&fit=crop";
+
      const heroImageUrl = "https://images.unsplash.com/photo-1717281234297-3def5ae3eee1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687?w=1600&auto=format&fit=crop";
     
 

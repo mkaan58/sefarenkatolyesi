@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import { Menu, X, Phone, ChevronDown } from 'lucide-react';
+import { Menu, X, Phone } from 'lucide-react';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [isMobileDropdownOpen, setMobileDropdownOpen] = useState(false);
+  const [ setMobileDropdownOpen] = useState(false);
 
   const mainNavLinks = [
     { title: 'Ana Sayfa', path: '/' },

@@ -181,7 +181,7 @@ const GaleriPage = () => {
   React.useEffect(() => {
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [selectedProject]);
+  }, [selectedProject,handleKeyDown]);
 
   return (
     <div className="animate-fade-in">

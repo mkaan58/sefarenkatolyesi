@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, Mail, MapPin, Instagram, Facebook, Clock, Paintbrush } from 'lucide-react';
+import { Phone, Mail, MapPin, Instagram, Clock, Paintbrush } from 'lucide-react';
 
 const Footer = () => {
   
