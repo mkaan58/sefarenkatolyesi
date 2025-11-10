@@ -1,5 +1,6 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useCallback, useEffect } from 'react';
 import { ArrowRight, X, ChevronLeft, ChevronRight, Paintbrush, Home, Building2, Sparkles, Phone } from 'lucide-react';
+
 
 // Project bundles - each project can have multiple photos
 const projectBundles = [
@@ -154,34 +155,42 @@ const GaleriPage = () => {
     setCurrentPhotoIndex(0);
   };
 
-  const closeProject = () => {
-    setSelectedProject(null);
-    setCurrentPhotoIndex(0);
-  };
+  const closeProject = useCallback(() => {
+    setSelectedProject(null);
+    setCurrentPhotoIndex(0);
+  }, []); // State setter'lar stabildir, bağımlılığa gerek yok
 
-  const goToPrevious = () => {
-    setCurrentPhotoIndex((prev) => 
-      prev === 0 ? selectedProject.photos.length - 1 : prev - 1
-    );
-  };
+  const goToPrevious = useCallback(() => {
+    // Bu fonksiyon sadece selectedProject varken çağrılır,
+    // bu yüzden selectedProject'e bağlı olmalıdır.
+    if (!selectedProject) return; 
+    const numPhotos = selectedProject.photos.length;
+    setCurrentPhotoIndex((prev) => 
+      prev === 0 ? numPhotos - 1 : prev - 1
+    );
+  }, [selectedProject]); // selectedProject'e bağlı
 
-  const goToNext = () => {
-    setCurrentPhotoIndex((prev) => 
-      prev === selectedProject.photos.length - 1 ? 0 : prev + 1
-    );
-  };
-
-  React.useEffect(() => {
-  const handleKeyDown = (e) => {
+  const goToNext = useCallback(() => {
     if (!selectedProject) return;
-    if (e.key === 'ArrowLeft') goToPrevious();
-    if (e.key === 'ArrowRight') goToNext();
-    if (e.key === 'Escape') closeProject();
-  };
+    const numPhotos = selectedProject.photos.length;
+    setCurrentPhotoIndex((prev) => 
+      prev === numPhotos - 1 ? 0 : prev + 1
+    );
+  }, [selectedProject]); // selectedProject'e bağlı
 
-  window.addEventListener('keydown', handleKeyDown);
-  return () => window.removeEventListener('keydown', handleKeyDown);
-}, [selectedProject]); // Remove handleKeyDown from dependencies
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (!selectedProject) return;
+      if (e.key === 'ArrowLeft') goToPrevious();
+      if (e.key === 'ArrowRight') goToNext();
+      if (e.key === 'Escape') closeProject();
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  
+    // Bağımlılık dizisini GÜNCELLEYİN
+  }, [selectedProject, goToPrevious, goToNext, closeProject]);
 
   return (
     <div className="animate-fade-in">
