@@ -171,6 +171,7 @@ const GaleriPage = () => {
     );
   };
 
+  React.useEffect(() => {
   const handleKeyDown = (e) => {
     if (!selectedProject) return;
     if (e.key === 'ArrowLeft') goToPrevious();
@@ -178,10 +179,9 @@ const GaleriPage = () => {
     if (e.key === 'Escape') closeProject();
   };
 
-  React.useEffect(() => {
-    window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [selectedProject,handleKeyDown]);
+  window.addEventListener('keydown', handleKeyDown);
+  return () => window.removeEventListener('keydown', handleKeyDown);
+}, [selectedProject]); // Remove handleKeyDown from dependencies
 
   return (
     <div className="animate-fade-in">
