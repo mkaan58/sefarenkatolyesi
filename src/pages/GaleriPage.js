@@ -9,116 +9,116 @@ const projectBundles = [
     title: "Modern Villa - İç Mekan",
     location: "Marmaris, Muğla",
     category: "ic-mekan",
-    coverImage: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&auto=format&fit=crop",
+    coverImage: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/1a-.JPG?updatedAt=1763108924747?w=800&auto=format&fit=crop",
     photos: [
-      { src: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&auto=format&fit=crop", caption: "Oturma odası - Öncesi" },
-      { src: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&auto=format&fit=crop", caption: "Oturma odası - Sonrası" },
-      { src: "https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=800&auto=format&fit=crop", caption: "Yatak odası - Öncesi" },
-      { src: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&auto=format&fit=crop", caption: "Yatak odası - Sonrası" },
-      { src: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&auto=format&fit=crop", caption: "Mutfak - Öncesi" }
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/1a-.JPG?updatedAt=1763108924747?w=800&auto=format&fit=crop", caption: "Oturma odası - Öncesi" },
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/1b+.JPG?updatedAt=1763108926954?w=800&auto=format&fit=crop", caption: "Oturma odası - Sonrası" },
     ]
   },
   {
     id: 2,
-    title: "Lüks Daire - Kapı Boyama",
+    title: "Lüks Daire - Dekorasyon",
     location: "Bodrum, Muğla",
-    category: "kapi-pencere",
-    coverImage: "https://images.unsplash.com/photo-1585128792304-b77b2a3c1f69?w=800&auto=format&fit=crop",
+    category: "dekoratif",
+    coverImage: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/2a.JPG?updatedAt=1763108916422?w=800&auto=format&fit=crop",
     photos: [
-      { src: "https://images.unsplash.com/photo-1585128792304-b77b2a3c1f69?w=800&auto=format&fit=crop", caption: "Giriş kapısı - Öncesi" },
-      { src: "https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=800&auto=format&fit=crop", caption: "Giriş kapısı - Sonrası" },
-      { src: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&auto=format&fit=crop", caption: "Oda kapıları - Öncesi" }
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/2a.JPG?updatedAt=1763108916422?w=800&auto=format&fit=crop", caption: "Giriş kapısı - Öncesi" },
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/2b.JPG?updatedAt=1763108915556?w=800&auto=format&fit=crop", caption: "Giriş kapısı - Sonrası" },
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/2c.JPG?updatedAt=1763108915984?w=800&auto=format&fit=crop", caption: "Oda kapıları - Öncesi" }
     ]
   },
   {
     id: 3,
     title: "Butik Otel - Dış Cephe",
     location: "Fethiye, Muğla",
-    category: "dis-cephe",
-    coverImage: "https://images.unsplash.com/photo-1604014237800-1c9102c219da?w=800&auto=format&fit=crop",
+    category: "kapi-pencere",
+    coverImage: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/3a-.jpg?updatedAt=1763108810045?w=800&auto=format&fit=crop",
     photos: [
-      { src: "https://images.unsplash.com/photo-1604014237800-1c9102c219da?w=800&auto=format&fit=crop", caption: "Ön cephe - Öncesi" },
-      { src: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=800&auto=format&fit=crop", caption: "Ön cephe - Sonrası" },
-      { src: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&auto=format&fit=crop", caption: "Yan cephe - Öncesi" },
-      { src: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&auto=format&fit=crop", caption: "Yan cephe - Sonrası" },
-      { src: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&auto=format&fit=crop", caption: "Arka cephe - Öncesi" },
-      { src: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&auto=format&fit=crop", caption: "Arka cephe - Sonrası" },
-      { src: "https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=800&auto=format&fit=crop", caption: "Balkonlar - Öncesi" },
-      { src: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&auto=format&fit=crop", caption: "Balkonlar - Sonrası" }
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/3a-.jpg?updatedAt=1763108810045?w=800&auto=format&fit=crop", caption: "Ön cephe - Öncesi" },
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/3b+.HEIC?updatedAt=1763108908949?w=800&auto=format&fit=crop", caption: "Ön cephe - Sonrası" },
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/3c+.HEIC?updatedAt=1763108912321?w=800&auto=format&fit=crop", caption: "Yan cephe - Öncesi" },
     ]
   },
   {
     id: 4,
-    title: "Restaurant - Dekoratif Boya",
+    title: "Daire-Dolap Boyama & Dekoratif",
     location: "Marmaris, Muğla",
-    category: "dekoratif",
-    coverImage: "https://images.unsplash.com/photo-1615873968403-89e068629265?w=800&auto=format&fit=crop",
+    category: "kapi-pencere",
+    coverImage: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/4a-.JPG?updatedAt=1763108916380?w=800&auto=format&fit=crop",
     photos: [
-      { src: "https://images.unsplash.com/photo-1615873968403-89e068629265?w=800&auto=format&fit=crop", caption: "Salon alanı - Öncesi" },
-      { src: "https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=800&auto=format&fit=crop", caption: "Salon alanı - Sonrası" },
-      { src: "https://images.unsplash.com/photo-1585128792304-b77b2a3c1f69?w=800&auto=format&fit=crop", caption: "Bar bölümü - Öncesi" },
-      { src: "https://images.unsplash.com/photo-1604014237800-1c9102c219da?w=800&auto=format&fit=crop", caption: "Bar bölümü - Sonrası" },
-      { src: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=800&auto=format&fit=crop", caption: "Tavan detayı" }
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/4a-.JPG?updatedAt=1763108916380?w=800&auto=format&fit=crop", caption: "Salon alanı - Öncesi" },
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/4b-.JPG?updatedAt=1763108907065?w=800&auto=format&fit=crop", caption: "Salon alanı - Sonrası" },
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/4c+.JPG?updatedAt=1763108916690?w=800&auto=format&fit=crop", caption: "Bar bölümü - Öncesi" },
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/4d+.JPG?updatedAt=1763108910273?w=800&auto=format&fit=crop", caption: "Bar bölümü - Sonrası" },
+
     ]
   },
   {
     id: 5,
-    title: "Ofis - İç Mekan Tadilat",
+    title: "Ofis - İç Mekan Tezgah Tadilatı",
     location: "Dalaman, Muğla",
     category: "tadilat",
-    coverImage: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800&auto=format&fit=crop",
+    coverImage: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/5a-.JPG?updatedAt=1763108923146?w=800&auto=format&fit=crop",
     photos: [
-      { src: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800&auto=format&fit=crop", caption: "Toplantı odası - Öncesi" },
-      { src: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&auto=format&fit=crop", caption: "Toplantı odası - Sonrası" },
-      { src: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&auto=format&fit=crop", caption: "Çalışma alanı - Öncesi" },
-      { src: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&auto=format&fit=crop", caption: "Çalışma alanı - Sonrası" },
-      { src: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&auto=format&fit=crop", caption: "Resepsiyon - Öncesi" },
-      { src: "https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=800&auto=format&fit=crop", caption: "Resepsiyon - Sonrası" }
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/5a-.JPG?updatedAt=1763108923146?w=800&auto=format&fit=crop", caption: "Toplantı odası - Öncesi" },
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/5b-.JPG?updatedAt=1763108914328?w=800&auto=format&fit=crop", caption: "Toplantı odası - Sonrası" },
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/5c-.JPG?updatedAt=1763108917112?w=800&auto=format&fit=crop", caption: "Çalışma alanı - Öncesi" },
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/5d-.JPG?updatedAt=1763108924997?w=800&auto=format&fit=crop", caption: "Çalışma alanı - Sonrası" },
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/5e-.JPG?updatedAt=1763108915999?w=800&auto=format&fit=crop", caption: "Resepsiyon - Öncesi" },
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/5f+.JPG?updatedAt=1763108918020?w=800&auto=format&fit=crop", caption: "Resepsiyon - Sonrası" },
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/5g+.JPG?updatedAt=1763108918203?w=800&auto=format&fit=crop", caption: "Resepsiyon - Sonrası" },
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/5h+.JPG?updatedAt=1763108915628?w=800&auto=format&fit=crop", caption: "Resepsiyon - Sonrası" },
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/5j+.JPG?updatedAt=1763108918528?w=800&auto=format&fit=crop", caption: "Resepsiyon - Sonrası" },
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/5k+.JPG?updatedAt=1763108914831?w=800&auto=format&fit=crop", caption: "Resepsiyon - Sonrası" },
     ]
+
+
+
   },
   {
     id: 6,
-    title: "Yazlık Ev - Komple Boya",
+    title: "Dış cephe - Boya Dekorasyon",
     location: "Datça, Muğla",
-    category: "ic-mekan",
-    coverImage: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&auto=format&fit=crop",
+    category: "dis-cephe",
+    coverImage: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/6a-.jpg?updatedAt=1763108914856?w=800&auto=format&fit=crop",
     photos: [
-      { src: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&auto=format&fit=crop", caption: "Genel görünüm - Öncesi" },
-      { src: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&auto=format&fit=crop", caption: "Genel görünüm - Sonrası" },
-      { src: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&auto=format&fit=crop", caption: "Salon - Öncesi" },
-      { src: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&auto=format&fit=crop", caption: "Salon - Sonrası" },
-      { src: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&auto=format&fit=crop", caption: "Teras - Öncesi" },
-      { src: "https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=800&auto=format&fit=crop", caption: "Teras - Sonrası" },
-      { src: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=800&auto=format&fit=crop", caption: "Yatak odaları - Öncesi" },
-      { src: "https://images.unsplash.com/photo-1604014237800-1c9102c219da?w=800&auto=format&fit=crop", caption: "Yatak odaları - Sonrası" },
-      { src: "https://images.unsplash.com/photo-1585128792304-b77b2a3c1f69?w=800&auto=format&fit=crop", caption: "Mutfak - Öncesi" },
-      { src: "https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=800&auto=format&fit=crop", caption: "Mutfak - Sonrası" }
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/6a-.jpg?updatedAt=1763108914856?w=800&auto=format&fit=crop", caption: "Genel görünüm - Öncesi" },
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/6b-.jpg?updatedAt=1763108929281?w=800&auto=format&fit=crop", caption: "Genel görünüm - Sonrası" },
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/6c-.HEIC?updatedAt=1763108845529?w=800&auto=format&fit=crop", caption: "Salon - Öncesi" },
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/6d+.HEIC?updatedAt=1763108894955?w=800&auto=format&fit=crop", caption: "Salon - Sonrası" },
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/6e+.HEIC?updatedAt=1763108911831?w=800&auto=format&fit=crop", caption: "Teras - Öncesi" },
+
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/6f+.HEIC?updatedAt=1763108901620?w=800&auto=format&fit=crop", caption: "Teras - Sonrası" },
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/6g+.HEIC?updatedAt=1763108907120?w=800&auto=format&fit=crop", caption: "Yatak odaları - Öncesi" },
+
     ]
   },
   {
     id: 7,
-    title: "Villa Pencere Çerçeveleri",
+    title: "Kapı boyama",
     location: "Marmaris, Muğla",
     category: "kapi-pencere",
-    coverImage: "https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=800&auto=format&fit=crop",
+    coverImage: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/8a-.HEIC?updatedAt=1763108904929?w=800&auto=format&fit=crop",
     photos: [
-      { src: "https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=800&auto=format&fit=crop", caption: "Pencere 1 - Öncesi" },
-      { src: "https://images.unsplash.com/photo-1585128792304-b77b2a3c1f69?w=800&auto=format&fit=crop", caption: "Pencere 1 - Sonrası" },
-      { src: "https://images.unsplash.com/photo-1604014237800-1c9102c219da?w=800&auto=format&fit=crop", caption: "Pencere 2 - Öncesi" },
-      { src: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=800&auto=format&fit=crop", caption: "Pencere 2 - Sonrası" },
-      { src: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&auto=format&fit=crop", caption: "Tüm pencereler - Final" }
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/8a-.HEIC?updatedAt=1763108904929?w=800&auto=format&fit=crop", caption: "Pencere 1 - Öncesi" },
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/8b-.HEIC?updatedAt=1763108899308?w=800&auto=format&fit=crop", caption: "Pencere 1 - Sonrası" },
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/8c+.HEIC?updatedAt=1763108910647?w=800&auto=format&fit=crop", caption: "Pencere 2 - Öncesi" },
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/8d+.HEIC?updatedAt=1763108902157?w=800&auto=format&fit=crop", caption: "Pencere 2 - Sonrası" },
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/8e+.HEIC?updatedAt=1763108915230?w=800&auto=format&fit=crop", caption: "Tüm pencereler - Final" },
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/8f+.HEIC?updatedAt=1763108907144?w=800&auto=format&fit=crop", caption: "Pencere 2 - Sonrası" },
+
     ]
   },
   {
     id: 8,
-    title: "Apartman Dış Cephe Yenileme",
+    title: "Ev içi dekorasyon",
     location: "Bodrum, Muğla",
-    category: "dis-cephe",
-    coverImage: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=800&auto=format&fit=crop",
+    category: "dekoratif",
+    coverImage: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/7a-.HEIC?updatedAt=1763108919665?w=800&auto=format&fit=crop",
     photos: [
-      { src: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=800&auto=format&fit=crop", caption: "Cephe - Öncesi" },
-      { src: "https://images.unsplash.com/photo-1604014237800-1c9102c219da?w=800&auto=format&fit=crop", caption: "Cephe - Sonrası" },
-      { src: "https://images.unsplash.com/photo-1585128792304-b77b2a3c1f69?w=800&auto=format&fit=crop", caption: "Detay görünüm" }
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/7a-.HEIC?updatedAt=1763108919665?w=800&auto=format&fit=crop", caption: "Cephe - Öncesi" },
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/7b+.HEIC?updatedAt=1763108929446?w=800&auto=format&fit=crop", caption: "Cephe - Sonrası" },
+      { src: "https://ik.imagekit.io/46nvsdwq8/sefarenkatolyesi/7c+.HEIC?updatedAt=1763108931269?w=800&auto=format&fit=crop", caption: "Detay görünüm" }
     ]
   }
 ];
